@@ -1,0 +1,28 @@
+<h2>Digital Innovation: Expert class - Desenvolvimento de testes unitários para validar uma API REST de gerenciamento de estoques de cerveja.</h2>
+
+Api Rest para o gerenciamento de estoques de cerveja, com testes unitários feitos com JUnit e Mockito, através da prática do TDD.
+
+
+```shell script
+mvn spring-boot:run 
+```
+
+Para executar a suíte de testes desenvolvida durante a live coding, basta executar o seguinte comando:
+
+```shell script
+mvn clean test
+```
+
+Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
+
+```
+http://localhost:8080/api/v1/beers
+```
+
+Pré-requisitos para a execução do projeto desenvolvido durante a aula:
+
+* Java 14 ou versões superiores.
+* Maven 3.6.3 ou versões superiores.
+
+
+
